@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "sv-se"
+title = "johanl.se"
+theme = "johanl-theme"
+
+[params]
+  author = "Nikola Tesla"
+  tagline = "En slags blogg."
