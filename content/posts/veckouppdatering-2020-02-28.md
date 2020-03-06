@@ -6,7 +6,7 @@ title = "Veckouppdatering 1"
 
 (Jag ska försöka mig på att skriva veckouppdateringar.)
 
-- På jobbet har vi lanserat vårt nya långläsningsformat som jag har varit del av ta fram. Det känns kul att få visa upp det för läsare och feedback har redan börjat rulla in. 90% klar nu är det bara 90% kvar.
+- På jobbet har vi lanserat vårt nya långläsningsformat som jag har varit del av ta fram. Det känns kul att få visa upp det för läsare och feedback har redan börjat rulla in. 90% klar nu är det bara 90% kvar. De artiklar vi släpper den här helgen är:
 	- [Natt på Medelhavet](https://feature.etc.se/utrikes/natt-paa-medelhavet)
 	- [Så gick det för de svenska incel-männen](https://feature.etc.se/inrikes/incelmaennen)
 	- [Truckstop Alaska – från vaggan till graven](https://feature.etc.se/kultur/truckstop-alaska)
