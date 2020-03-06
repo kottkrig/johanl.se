@@ -36,7 +36,7 @@ ul {
 }
 
 li {
-	@apply my-2;
+	@apply my-3;
 }
 
 article p {
@@ -44,12 +44,14 @@ article p {
 }
 
 article a::after {
-	content: "";
-	@apply inline-block rounded-full border w-1 h-1 border-red-700 align-text-top;
+	content: "°";
+	@apply inline text-red-800 relative;
+	top: -2px;
+	margin-left: 1.5px;
 }
 
 a:hover {
-	@apply bg-red-100;
+	@apply bg-red-100 rounded-sm;
 }
 
 h2 {
