@@ -5,6 +5,7 @@ theme = "johanl-theme"
 
 [author]
     name = "Johan Larsson"
+    email = "johan@johanl.se"
 
 [params]
   author = "Nikola Tesla"
