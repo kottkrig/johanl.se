@@ -40,7 +40,7 @@ li {
 }
 
 article p {
-	@apply my-2;
+	@apply my-3;
 }
 
 article a::after {
