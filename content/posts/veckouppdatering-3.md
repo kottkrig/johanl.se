@@ -9,6 +9,6 @@ title = "Veckouppdatering 3"
 	
 	Jag har jobbat hemifrån ett par dagar. Dels för att känns tryggt rent allmänt men främst för att jag inte vill riskera att dra på mig Corona nu när födelsedatumet börjar närma sig. Jag vill verkligen inte riskera att bli portad från förlossningen.
 
-- Två album har snurrat varma i hörlurarna den här veckan. [Ryder av Holy](https://music.apple.com/se/album/ryder/1488824243) och [Like New av Purr](https://music.apple.com/se/album/like-new/1484851213).
+- Två album har snurrat varma i hörlurarna den här veckan. [Ryder av Holy](https://music.apple.com/se/album/ryder/1488824243) och [Like New av Purr](https://music.apple.com/se/album/like-new/1484851213).
 - *Return of the Obra Dinn* är nu helt avklarat och jag kan fortsatt rekommendera det varmt. En synnerligen unik spelupplevelse. Problemet med unika spelupplevelser är att det inte finns något naturligt spel att plocka upp nu när man har fått mersmak.
 
