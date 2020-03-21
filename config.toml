@@ -6,3 +6,6 @@ theme = "johanl-theme"
 [params]
   author = "Nikola Tesla"
   tagline = "En slags blogg."
+
+[markup.goldmark.renderer]
+  unsafe= true
