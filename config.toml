@@ -3,6 +3,9 @@ languageCode = "sv-se"
 title = "johanl.se"
 theme = "johanl-theme"
 
+[author]
+    name = "Johan Larsson"
+
 [params]
   author = "Nikola Tesla"
   tagline = "En slags blogg."
