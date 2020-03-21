@@ -4,7 +4,7 @@ slug = "veckouppdatering-4"
 title = "Veckouppdatering 4"
 +++
 
-![Poppis föddes den 16:e mars kl 22:56](./poppis.jpeg)
+<img width="4160" height="6240" src="./poppis.jpeg" alt="Poppis föddes den 16:e mars kl 22:56" />
 
 &nbsp;
 &nbsp;
