@@ -1,5 +1,5 @@
 +++
-date = "2020-03-13"
+date = "2020-03-13T17:20:31+01:00"
 slug = "veckouppdatering-3"
 title = "Veckouppdatering 3"
 +++
