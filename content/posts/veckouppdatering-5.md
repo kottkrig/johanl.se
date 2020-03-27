@@ -19,7 +19,7 @@ draft: false
 	
 	*1 l mjöl*
 
-	*Dimensionera så att det passar den brödform du vill baka i.*
+	*Dimensionera så att det passar den brödform du vill grädda i.*
 
 	*Blanda ingredienserna tills degen är lagom blöt.*
 
