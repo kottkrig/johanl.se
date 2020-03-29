@@ -35,7 +35,7 @@ hugo new posts/veckouppdatering-5.md
 
 ## Deploy
 
-It's automatically deployed on github pages using [github actions](./.github/workflows/main.yml).
+It's automatically deployed on github pages using a [github actions workflow](./.github/workflows/main.yml).
 
 ## Acknowledgements
 
