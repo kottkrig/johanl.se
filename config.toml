@@ -1,6 +1,6 @@
 baseURL = "https://kottkrig.github.io/johanl.se/"
 languageCode = "sv-se"
-title = "Hej, jag heter Johan."
+title = "Johan Larsson"
 theme = "johanl-theme"
 
 [author]
@@ -8,6 +8,7 @@ theme = "johanl-theme"
     email = "johan@johanl.se"
 
 [params]
+  heading = "Hej, jag heter Johan."
   tagline = "Jag bygger webbsidor, appar och allsköns andra digitala ting. Just nu gör jag det hos [ETC](https://etc.se)."
 
 [[params.social]]
