@@ -1,6 +1,6 @@
 baseURL = "https://kottkrig.github.io/johanl.se/"
 languageCode = "sv-se"
-title = "johanl.se"
+title = "Hej, jag heter Johan."
 theme = "johanl-theme"
 
 [author]
@@ -8,8 +8,11 @@ theme = "johanl-theme"
     email = "johan@johanl.se"
 
 [params]
-  author = "Nikola Tesla"
-  tagline = "En slags blogg."
+  tagline = "Jag bygger webbsidor, appar och allsköns andra digitala ting. Just nu gör jag det hos [ETC](https://etc.se)."
+
+[[params.social]]
+	name = "@kottkrig på twitter →"
+	link = "https://twitter.com/kottkrig"
 
 [markup.goldmark.renderer]
   unsafe= true
