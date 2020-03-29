@@ -1,7 +1,7 @@
 +++
 date = "2020-03-13T17:20:31+01:00"
-slug = "veckouppdatering-3"
-title = "Veckouppdatering 3"
+slug = "veckouppdatering-11"
+title = "Veckouppdatering 11"
 +++
 
 - Jag blev otroligt inspirerad av [Jacob Michelsen](https://michelsen.se) och hans filmfoton när vi sågs i förra veckan. Inspirerad till den grad att jag har fått låna Lisas pappas gamla [Canon FT QL](https://en.wikipedia.org/wiki/Canon_FT_QL). Laddad med en ny rulle *Fujifilm Superia 400* film så har jag försökt ta foton på ditten och datten. Det är dock både svårt och tidskrävande utan en fungerande ljussensor. Batteriet som är tänkt att driva den är märkt med *"Made in West Germany"* vilket skvallrar om hur gammalt det är.

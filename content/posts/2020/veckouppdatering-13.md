@@ -1,5 +1,6 @@
 ---
-title: "Veckouppdatering 5"
+title: "Veckouppdatering 13"
+slug: "veckouppdatering-13"
 date: 2020-03-27T10:15:34+01:00
 draft: false
 ---

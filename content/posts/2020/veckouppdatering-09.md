@@ -1,7 +1,7 @@
 +++
 date = "2020-02-28T17:38:00+01:00"
-slug = "veckouppdatering-1"
-title = "Veckouppdatering 1"
+slug = "veckouppdatering-09"
+title = "Veckouppdatering 9"
 +++
 
 (Jag ska försöka mig på att skriva veckouppdateringar.)

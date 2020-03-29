@@ -1,7 +1,7 @@
 +++
 date = "2020-03-06T17:28:34+01:00"
-slug = "veckouppdatering-2"
-title = "Veckouppdatering 2"
+slug = "veckouppdatering-10"
+title = "Veckouppdatering 10"
 +++
 
 - Bebisen gjorde oss så pass oroliga i veckan att vi åkte in till Östra sjukhuset. Hen rörde sig inte som hen brukar och då finns det inte direkt något alternativ till att åka in. Så fort vi anlände så tog barnmorskan CKG och hjärtat slog som det skulle. Efter det tog det många timmar tills vi fick träffa en läkare som gjorde ultraljud – men det gjorde inget att det tog tid för vi var trygga med att hjärtat ändå slog som det skulle. Ultraljudet såg normalt ut och bebisen låg och sprattlade gott där inne i magen.
