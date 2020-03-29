@@ -33,6 +33,10 @@ Generate a new post.
 hugo new posts/veckouppdatering-5.md
 ```
 
+## Deploy
+
+It's automatically deployed on github pages using [github actions](./.github/workflows/main.yml).
+
 ## Acknowledgements
 
 - [Hugo Starter Theme with Tailwind CSS](https://github.com/dirkolbrich/hugo-theme-tailwindcss-starter), a great boilerplate for using tailwind with hugo.
