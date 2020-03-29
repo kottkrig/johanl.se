@@ -1,28 +1,28 @@
 
 @font-face {
 	font-family: "Charter";
-	src: url("/fonts/charter_regular-webfont.woff");
+	src: url("../fonts/charter_regular-webfont.woff");
 	font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
 	font-family: "Charter";
-	src: url("/fonts/charter_bold-webfont.woff");
+	src: url("../fonts/charter_bold-webfont.woff");
 	font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
 	font-family: "Charter";
-	src: url("/fonts/charter_italic-webfont.woff");
+	src: url("../fonts/charter_italic-webfont.woff");
 	font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
 	font-family: "Charter";
-	src: url("/fonts/charter_bold_italic-webfont.woff");
+	src: url("../fonts/charter_bold_italic-webfont.woff");
 	font-weight: bold;
     font-style: italic;
 }
