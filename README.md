@@ -1,6 +1,6 @@
 # johanl.se
 
-Static homepage based on Hugo.
+Static webpage based on Hugo.
 
 ## Getting started
 
