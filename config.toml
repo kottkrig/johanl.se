@@ -10,6 +10,7 @@ theme = "johanl-theme"
 [params]
   heading = "Hej, jag heter Johan."
   tagline = "Jag bygger webbsidor, appar och allsköns andra digitala ting. Just nu gör jag det hos [ETC](https://etc.se)."
+  avatar = "avatar-sm.jpg"
 
 [[params.social]]
 	name = "@kottkrig på twitter →"
