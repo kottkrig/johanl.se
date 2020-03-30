@@ -3,9 +3,12 @@
 
     <ol>
         {{ range .Pages -}}
-        <li class="my-2 md:flex md:flex-row">
-            <time class=" block md:flex-l-24" datetime="{{ .Date.Format "2006-01-02 15:04:05 MST" }}">{{ .Date.Format "Jan 02"}}</time>
-            <a class="text-lg md:ml-12" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <li class="my-2">
+            
+            <a class="text-lg flex flex-row" href="{{ .RelPermalink }}">
+            	<time class="block w-24" datetime="{{ .Date.Format "2006-01-02 15:04:05 MST" }}">{{ .Date.Format "Jan 02"}}</time>
+            	<div>{{ .Title }}</div>
+            </a>
         </li>
         {{- end }}
     </ol>
