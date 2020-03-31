@@ -3,6 +3,9 @@ languageCode = "sv-se"
 title = "Johan Larsson"
 theme = "johanl-theme"
 
+[permalinks]
+  posts = "/:year/:month/:title/"
+
 [author]
     name = "Johan Larsson"
     email = "johan@johanl.se"
