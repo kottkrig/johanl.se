@@ -20,4 +20,4 @@ theme = "johanl-theme"
 	link = "https://twitter.com/kottkrig"
 
 [markup.goldmark.renderer]
-  unsafe= true
+  unsafe = true
