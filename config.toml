@@ -1,4 +1,4 @@
-baseURL = "https://kottkrig.github.io/johanl.se/"
+baseURL = "https://johanl.se"
 languageCode = "sv-se"
 title = "Johan Larsson"
 theme = "johanl-theme"
