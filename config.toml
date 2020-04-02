@@ -12,7 +12,7 @@ theme = "johanl-theme"
 
 [params]
   heading = "Hej, jag heter Johan."
-  tagline = "Jag bygger webbsidor, appar och allsköns digitala ting. Just nu gör jag det hos [ETC](https://etc.se)."
+  tagline = "Jag bygger webbsidor, appar och allsköns digitala ting. <br class=\"hidden md:block\">Just nu gör jag det hos [ETC](https://etc.se)."
   avatar = "avatar-sm.jpg"
 
 [[params.social]]
