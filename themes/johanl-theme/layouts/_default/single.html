@@ -25,6 +25,11 @@
             {{ index $.Site.Data.days (printf "%d" .Date.Weekday) }}, {{.Date.Day}} {{ index $.Site.Data.months (printf "%d" .Date.Month) }}
         </time>
 
+        <!-- 
+            H-card that is used for IndieWeb 
+
+            I couldn't get it to work wiht just linking to the author at the homepage. A lot of services didn't manage to follow the link and get the author from the homepage instead of on this post page.
+        -->
         <a style="display: none;" href="/" class="u-author h-card">
             <img loading="lazy" class="u-photo" src="{{ "avatar-md.jpg" | absURL }}" alt="Johan Larsson" />
             <span class="p-name">Johan Larsson</span>
