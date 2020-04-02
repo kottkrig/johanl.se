@@ -6,7 +6,7 @@
         <li class="my-1">
             
             <a class="text-lg flex flex-row py-1" href="{{ .RelPermalink }}">
-            	<time class="block w-24" datetime="{{ .Date.Format "2006-01-02 15:04:05 MST" }}">{{ .Date.Format "Jan 02"}}</time>
+            	<time class="block w-24 flex-none" datetime="{{ .Date.Format "2006-01-02 15:04:05 MST" }}">{{ .Date.Format "Jan 02"}}</time>
             	<div>{{ if .Draft }}<span class="italic">Utkast: </span>{{ end }}{{ .Title }}</div>
             </a>
         </li>
