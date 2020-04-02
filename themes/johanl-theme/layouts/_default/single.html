@@ -1,6 +1,8 @@
-{{ define "heading" }}
+{{ define "header" }}
 <div>
-    {{ partial "back-home.html" . }}
+    <nav>
+        {{ partial "back-home.html" . }}
+    </nav>
     
     <!-- Tags -->
     {{ with .Params.tags }}
@@ -18,7 +20,7 @@
 {{ define "content" }}
 <article class="mb-12 h-entry">
 
-    <div>
+    <header>
         <!-- Title and Publication Date -->
         <h1 class="text-xl font-bold p-name">{{ .Title }}</h1>
         <time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 MST" }}">
@@ -34,11 +36,7 @@
             <img loading="lazy" class="u-photo" src="{{ "avatar-md.jpg" | absURL }}" alt="Johan Larsson" />
             <span class="p-name">Johan Larsson</span>
         </a>
-
-
-
-    </div>
-
+    </header>
     
     <div class="e-content">
         {{ .Content }}
