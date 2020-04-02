@@ -8,7 +8,8 @@
     "license": "MIT",
     "scripts": {
         "start": "hugo --gc",
-        "watch": "chokidar '**/*.elm' -c 'elm make src/WebMentions.elm  --output=assets/js/main.js' --initial"
+        "watch": "chokidar '**/*.elm' -c 'elm make src/WebMentions.elm  --output=assets/js/main.js' --initial",
+        "build": "elm make src/WebMentions.elm --optimize --output=assets/js/main.js"
     },
     "devDependencies": {
         "@fullhuman/postcss-purgecss": "^2.0.6",
