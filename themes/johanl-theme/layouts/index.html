@@ -18,7 +18,7 @@
 {{ end }}
 
 {{ define "content" }}
-<section class="mb-24">
+<section class="mt-6 mb-24">
 	{{ range site.RegularPages.GroupByDate "2006" -}} 
 		{{ partial "posts.html" . }} 
 	{{ end }}
