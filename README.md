@@ -21,6 +21,13 @@ Install theme dependencies.
 npm install --prefix ./themes/johanl-theme/
 ```
 
+Build elm app that handles WebMentions
+
+```bash
+cd themes/johanl-theme/
+npm run watch
+```
+
 Run and serve website locally.
 
 ```
