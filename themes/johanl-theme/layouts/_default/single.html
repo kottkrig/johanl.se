@@ -25,9 +25,10 @@
             {{ index $.Site.Data.days (printf "%d" .Date.Weekday) }}, {{.Date.Day}} {{ index $.Site.Data.months (printf "%d" .Date.Month) }}
         </time>
 
-        <div class="u-author hidden">
-            {{ partial "h-card.html" . }} 
-        </div>
+        <a href="/" class="u-author h-card">
+            <img loading="lazy" class="u-photo" src="{{ "avatar-md.jpg" | absURL }}" alt="Johan Larsson" />
+            <span class="p-name">Johan Larsson</span>
+        </a>
 
 
 
