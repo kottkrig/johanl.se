@@ -24,7 +24,12 @@
         <time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 MST" }}">
             {{ index $.Site.Data.days (printf "%d" .Date.Weekday) }}, {{.Date.Day}} {{ index $.Site.Data.months (printf "%d" .Date.Month) }}
         </time>
-        {{ partial "h-card.html" . }} 
+
+        <div class="u-author hidden">
+            {{ partial "h-card.html" . }} 
+        </div>
+
+
 
     </div>
 
