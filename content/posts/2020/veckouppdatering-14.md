@@ -2,7 +2,6 @@
 title: "Veckouppdatering 14"
 slug: "veckouppdatering-14"
 date: 2020-04-03T15:04:34+01:00
-draft: false
 ---
 
 - Paniken över att vi nu ansvarar för en liten bebis börjar lägga sig och vi har landat i något som kan liknas vid en vardagslunk. Förvisso en vardag där man knappt vågar träffa familj eller vänner, covid-19 härjar i landet, grannarna okynnesborrar och vår tvättstuga är stängd för asbestsanering. Men ändock, en vardag.
