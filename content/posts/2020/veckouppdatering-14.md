@@ -18,4 +18,6 @@ date: 2020-04-03T15:04:34+01:00
 
 	Men bristen på IRL-häng innebär också att vi aldrig får anledning att dricka [Lisas hemmagjorda öl](https://www.flickr.com/photos/johanl/49543661778/). De ligger just nu och ockuperar frukt- och grönsakslådorna i kylskåpet och bara väntar på att få uppfylla sitt syfte: Att drickas av besökare.
 
+	Vi har tjuvsmakat – och jag vågar lova framtida besökare att ni inte kommer bli besvikna. 
+
 - För andra fredagen i rad har vi hämtat lunch från [Resursrestaurangen](http://www.resursrestaurangen.se). Skönt med en promenad och skönt med en matlåda som innehåller ett tjog extra kärlek jämfört med vår hemmalagning.
