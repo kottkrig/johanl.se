@@ -9,14 +9,14 @@ import Json.Encode exposing (..)
 
 type alias Author =
     { name : String
-    , url : Maybe String
-    , photo : Maybe String
+    , url : String
+    , photo : String
     }
 
 
 decoder : Decoder Author
 decoder =
-    map3 Company
+    map3 Author
         (field "name" Json.Decode.string)
         (field "url" Json.Decode.string)
         (field "photo" Json.Decode.string)

@@ -7,9 +7,12 @@ module WebMentions exposing (..)
 --
 
 import Browser
+import Data.Entry
 import Html exposing (Html, button, div, text)
 import Html.Attributes exposing (class)
 import Html.Events exposing (onClick)
+import Http
+import Json.Decode
 
 
 
@@ -17,20 +20,37 @@ import Html.Events exposing (onClick)
 
 
 main =
-    Browser.sandbox { init = init, update = update, view = view }
+    Browser.element
+        { init = init
+        , update = update
+        , subscriptions = subscriptions
+        , view = view
+        }
 
 
 
 -- MODEL
 
 
-type alias Model =
-    Int
+type alias Flags =
+    { currentUrl : String
+    }
 
 
-init : Model
-init =
-    0
+type Model
+    = Failure
+    | Loading
+    | Success (List Data.Entry.Entry)
+
+
+init : Flags -> ( Model, Cmd Msg )
+init flags =
+    ( Loading
+    , Http.get
+        { url = "https://webmention.io/api/mentions.jf2?target=https://johanl.se/2020/04/veckouppdatering-14/"
+        , expect = Http.expectJson GotText (Json.Decode.field "children" (Json.Decode.list Data.Entry.decoder))
+        }
+    )
 
 
 
@@ -38,18 +58,28 @@ init =
 
 
 type Msg
-    = Increment
-    | Decrement
+    = GotText (Result Http.Error (List Data.Entry.Entry))
 
 
-update : Msg -> Model -> Model
+update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        Increment ->
-            model + 1
+        GotText result ->
+            case result of
+                Ok fullText ->
+                    ( Success fullText, Cmd.none )
 
-        Decrement ->
-            model - 1
+                Err _ ->
+                    ( Failure, Cmd.none )
+
+
+
+-- SUBSCRIPTIONS
+
+
+subscriptions : Model -> Sub Msg
+subscriptions model =
+    Sub.none
 
 
 
@@ -58,6 +88,25 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    div [ class "text-xl", class "my-24", class "text-right" ]
+    div [ class "text-xl font-sans", class "my-24", class "text-right" ]
         [ text "✍︎"
+        , viewEntryList model
         ]
+
+
+viewEntryList : Model -> Html Msg
+viewEntryList model =
+    case model of
+        Failure ->
+            div [] [ text "Failure" ]
+
+        Loading ->
+            div [] [ text "loading" ]
+
+        Success entries ->
+            div [ class "text-sm font-sans text-left" ] (List.map viewEntry entries)
+
+
+viewEntry : Data.Entry.Entry -> Html Msg
+viewEntry entry =
+    div [] [ text entry.author.name ]

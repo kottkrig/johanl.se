@@ -55,7 +55,10 @@
 
 <script>
   var app = Elm.WebMentions.init({
-    node: document.getElementById('elm-web-mentions')
+    node: document.getElementById('elm-web-mentions'),
+    flags: {
+        currentUrl: window.location.href
+    }
   });
   </script>
 {{ end }}
