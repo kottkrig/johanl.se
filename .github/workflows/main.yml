@@ -38,9 +38,6 @@ jobs:
     - name: Install project dependencies
       run: npm install --prefix ./themes/johanl-theme/
       
-    - name: Build Elm Application
-      run: npm run build --prefix ./themes/johanl-theme/
-      
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
