@@ -41,23 +41,5 @@
     <div class="e-content">
         {{ .Content }}
     </div>
-    <div id="elm-web-mentions">
-    </div>
 </article>
-
-{{ if .Site.IsServer }}
-    {{ $script := resources.Get "js/main.js" }}
-    <script src="{{ $script.Permalink }}"></script>
-{{ else }}
-    {{ $script := resources.Get "js/main.js" | minify | fingerprint }}
-    <script src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
 {{ end }}
-
-<script>
-  var app = Elm.WebMentions.init({
-    node: document.getElementById('elm-web-mentions')
-  });
-  </script>
-{{ end }}
-
-

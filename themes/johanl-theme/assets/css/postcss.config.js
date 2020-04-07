@@ -13,7 +13,6 @@ module.exports = {
             content: [
                 themeDir + 'layouts/**/*.html',
                 themeDir + 'exampleSite/content/**/*.html',
-                themeDir + '**/*.elm',
                 'layouts/**/*.html',
                 'content/**/*.html',
             ],
