@@ -1,0 +1,62 @@
+
+@font-face {
+	font-family: "Charter";
+	src: url("../fonts/charter_regular-webfont.woff");
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "Charter";
+	src: url("../fonts/charter_bold-webfont.woff");
+	font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "Charter";
+	src: url("../fonts/charter_italic-webfont.woff");
+	font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: "Charter";
+	src: url("../fonts/charter_bold_italic-webfont.woff");
+	font-weight: bold;
+    font-style: italic;
+}
+
+body {
+	font-size: 18px;
+}
+
+ul {
+	@apply list-circle pl-6 my-2;
+}
+
+li {
+	@apply my-5;
+}
+
+article p {
+	@apply my-3;
+}
+
+article a::after {
+	content: "°";
+	@apply inline text-red-800 relative;
+	top: -2px;
+	margin-left: 1.5px;
+}
+
+a:hover {
+	@apply bg-red-100 rounded-sm;
+}
+
+h2 {
+	@apply text-lg font-bold;
+}
+
+
+
