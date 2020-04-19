@@ -36,19 +36,8 @@ jobs:
     - run: npm install -g autoprefixer
       
     - name: Install project dependencies
-      run: npm install --prefix ./themes/johanl-theme/
+      run: npm install
       
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: '0.62.2'
-          # extended: true
-    
-    - name: Build
-      run: hugo --minify --buildFuture
-      
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+    - uses:  helaili/jekyll-action@2.0.0
+      env:
+        JEKYLL_PAT: ${{ secrets.GITHUB_TOKEN }}
