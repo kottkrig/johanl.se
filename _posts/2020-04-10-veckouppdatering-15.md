@@ -1,7 +1,5 @@
 ---
-title: "Veckouppdatering 15"
-slug: "veckouppdatering-15"
-date: 2020-04-10T21:25:34+01:00
+title: Veckouppdatering 15
 ---
 
 - Att för all framtid stämpla en liten människa med ett namn var svårare än vi trodde att det skulle vara. Men nu har [Otis](https://www.flickr.com/gp/johanl/Bq6d41) äntligen fått sig ett namn.

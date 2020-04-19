@@ -1,8 +1,5 @@
 ---
 title: "Veckouppdatering 13"
-slug: "veckouppdatering-13"
-date: 2020-03-27T10:15:34+01:00
-draft: false
 ---
 
 - Bebisen (som ännu är namnlös) har hållit oss fortsatt sysselsatta. Vi mäktar med ungefär en utflykt per dag men inte mer. Ena dagen innebär det [PKU-test](https://sv.wikipedia.org/wiki/PKU-test) på Östra, andra dagen går vi ned till servicebutiken för att hämta paket.
