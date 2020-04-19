@@ -27,6 +27,20 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
       
+    - uses: actions/cache@v1
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+          
+    - uses: actions/cache@v1
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+        
     - name: Setup Node.js for use with actions
       uses: actions/setup-node@v1.1.0
       with:
@@ -43,9 +57,10 @@ jobs:
       with:
         ruby-version: 2.6
         
-    - name: Build and test with Rake
+    - name: Build website
       run: |
         sudo apt-get -yqq install libpq-dev
         gem install bundler
+        bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
         bundle exec jekyll build
