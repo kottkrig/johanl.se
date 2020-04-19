@@ -1,0 +1,11 @@
+{% assign day = include.date | date: "%w" %}
+{%- case day -%}
+	{%- when "0" -%}Söndag
+	{%- when "1" -%}Måndag
+	{%- when "2" -%}Tisdag
+	{%- when "3" -%}Onsdag
+	{%- when "4" -%}Torsdag
+	{%- when "5" -%}Fredag
+	{%- when "6" -%}Lördag
+  {% else %}Okänd dag
+{%- endcase -%}

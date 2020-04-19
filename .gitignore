@@ -2,3 +2,7 @@
 /themes/johanl-theme/node_modules
 /resources
 .DS_Store
+/.jekyll-cache
+/_site
+node_modules
+/vendor

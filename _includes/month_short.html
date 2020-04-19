@@ -1,0 +1,16 @@
+{% assign day = include.date | date: "%m"  %}
+{% case day %}
+	{% when "01" %}Jan
+	{% when "02" %}Febr
+	{% when "03" %}Mars
+	{% when "04" %}April
+	{% when "05" %}Maj
+	{% when "06" %}Juni
+	{% when "07" %}Juli
+	{% when "08" %}Aug
+	{% when "09" %}Sept
+	{% when "10" %}Okt
+	{% when "11" %}Nov
+	{% when "12" %}Dec
+  {% else %}Okänd månad
+{% endcase %}

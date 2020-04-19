@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<header>
+<div class="my-4 text-4xl">
+	👋
+</div>
+
+<div>
+	<h1 class="text-xl font-bold">Hej, jag heter Johan.</h1>
+	<p class="my-4">Jag bygger webbsidor, appar och allsköns digitala ting. <br class="hidden md:block">Just nu gör jag det hos <a href="https://etc.se">ETC</a>.</p>
+</div>
+
+<ul class="list-none px-0">
+	<li class="my-2"><a rel="me" href="https://twitter.com/{{ site.twitter_username }}">@kottkrig på twitter →</a></li>
+</ul>
+</header>
+
+<section class="mt-6 mb-24">
+
+	{% assign postsByYear =
+    site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+	{% for year in postsByYear %}
+	<h2 class="text-xl font-bold mb-2">{{year.name}}</h2>
+	<ol>
+		{% for post in year.items %}
+		<li class="my-1">
+            <a class="text-lg flex flex-row py-1" href="{{ post.url }}">
+            	<time class="block w-24 flex-none" datetime="{{ page.date | date_to_xmlschema }}">{% include month_short.html date=post.date %}{{ post.date | date: "%-d" }}</time>
+            	<div>{{ post.title }}</div>
+            </a>
+        </li>
+        {% endfor %}
+	</ol>
+	{% endfor %}
+</section>
+
+<!-- H-card that is used for IndieWeb -->
+<p style="display: none;" class="h-card" rel="me">
+	<img loading="lazy" class="u-photo" src="/avatar-md.jpg" alt="Johan Larsson" />
+	<a class="p-name u-url" href="/">Johan Larsson</a>
+	<a class="u-email" href="mailto:johan@johanl.se">johan@johanl.se</a>
+</p>
