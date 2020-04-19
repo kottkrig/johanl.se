@@ -38,6 +38,14 @@ jobs:
     - name: Install project dependencies
       run: npm install
       
-    - uses:  helaili/jekyll-action@2.0.0
-      env:
-        JEKYLL_PAT: ${{ secrets.GITHUB_TOKEN }}
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6
+        
+    - name: Build and test with Rake
+      run: |
+        sudo apt-get -yqq install libpq-dev
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+        bundle exec jekyll build
