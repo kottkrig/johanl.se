@@ -27,6 +27,20 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
       
+    - uses: actions/cache@v1
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+          
+    - uses: actions/cache@v1
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+        
     - name: Setup Node.js for use with actions
       uses: actions/setup-node@v1.1.0
       with:
@@ -36,19 +50,23 @@ jobs:
     - run: npm install -g autoprefixer
       
     - name: Install project dependencies
-      run: npm install --prefix ./themes/johanl-theme/
+      run: npm install
       
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
       with:
-        hugo-version: '0.62.2'
-          # extended: true
-    
-    - name: Build
-      run: hugo --minify --buildFuture
-      
+        ruby-version: 2.6
+        
+    - name: Build website
+      run: |
+        sudo apt-get -yqq install libpq-dev
+        gem install bundler
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
+        bundle exec jekyll build
+        
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+        publish_dir: ./_site

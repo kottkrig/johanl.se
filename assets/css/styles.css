@@ -1,0 +1,15 @@
+---
+layout: empty
+---
+
+/* purgecss start ignore */
+
+@import "node_modules/tailwindcss/base";
+@import "node_modules/tailwindcss/components";
+
+/* Site Specific */
+@import "assets/css/site.css";
+
+/* purgecss end ignore */
+
+@import "node_modules/tailwindcss/utilities";
