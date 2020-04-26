@@ -35,7 +35,24 @@ ul {
 	@apply list-circle pl-6 my-2;
 }
 
-li {
+article ol {
+	counter-reset: ol-counter;
+	@apply list-none pl-6;
+}
+
+article ol li::before {
+	content: counter(ol-counter);
+	left: -1.5rem;
+	top: 0.28rem;
+	@apply font-sans text-xs border border-solid rounded-full border-black w-4 h-4 p-1 flex items-center justify-center absolute;
+}
+
+article ol li {
+	counter-increment: ol-counter;
+	@apply my-2 relative;
+}
+
+ul li {
 	@apply my-5;
 }
 
