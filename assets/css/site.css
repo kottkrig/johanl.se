@@ -37,19 +37,19 @@ ul {
 
 article ol {
 	counter-reset: ol-counter;
-	@apply list-none pl-6;
+	@apply list-none pl-8;
 }
 
 article ol li::before {
 	content: counter(ol-counter);
-	left: -1.5rem;
-	top: 0.28rem;
-	@apply font-sans text-xs border border-solid rounded-full border-black w-4 h-4 p-1 flex items-center justify-center absolute;
+	left: -2rem;
+	top: 0.2rem;
+	@apply text-sm border border-solid rounded-full border-black w-5 h-5 p-1 flex items-center justify-center absolute;
 }
 
 article ol li {
 	counter-increment: ol-counter;
-	@apply my-2 relative;
+	@apply my-3 relative;
 }
 
 ul li {
