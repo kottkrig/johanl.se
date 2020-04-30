@@ -1,72 +1,77 @@
+@font-face {
+	font-family: "Charter";
+	src: url("../fonts/charter_regular-webfont.woff") format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Charter";
+	src: url("../fonts/charter_bold-webfont.woff") format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Charter";
+	src: url("../fonts/charter_italic-webfont.woff") format('woff');
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: "Charter";
+	src: url("../fonts/charter_bold_italic-webfont.woff") format('woff');
+	font-weight: bold;
+    font-style: italic;
+}
+
 body {
-  font-size: 18px;
+	font-size: 18px;
 }
 
 ul {
-  list-style-type: circle;
-  padding-left: 1.5rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+	@apply list-circle pl-6 my-2;
 }
 
 article ol {
-  counter-reset: ol-counter;
-  list-style-type: none;
-  padding-left: 2rem;
+	counter-reset: ol-counter;
+	@apply list-none pl-8;
 }
 
 article ol li::before {
-  content: counter(ol-counter);
-  left: -2rem;
-  top: 0.2rem;
-  font-size: 0.875rem;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 9999px;
-  border-color: #000;
-  width: 1.25rem;
-  height: 1.25rem;
-  padding: 0.25rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
+	content: counter(ol-counter);
+	left: -2rem;
+	top: 0.2rem;
+	@apply text-sm border border-solid rounded-full border-black w-5 h-5 p-1 flex items-center justify-center absolute;
 }
 
 article ol li {
-  counter-increment: ol-counter;
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-  position: relative;
+	counter-increment: ol-counter;
+	@apply my-3 relative;
 }
 
 ul li {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
+	@apply my-5;
 }
 
 article p {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+	@apply my-3;
 }
 
 article a::after {
-  content: "°";
-  display: inline;
-  color: #9b2c2c;
-  position: relative;
-  top: -2px;
-  margin-left: 1.5px;
+	content: "°";
+	@apply inline text-red-800 relative;
+	top: -2px;
+	margin-left: 1.5px;
 }
 
 a:hover {
-  background-color: #fff5f5;
-  border-radius: 0.125rem;
+	@apply bg-red-100 rounded-sm;
 }
 
 h2 {
-  font-size: 1.125rem;
-  font-weight: 700;
+	@apply text-lg font-bold;
 }
 
 
