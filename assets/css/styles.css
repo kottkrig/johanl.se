@@ -717,6 +717,14 @@ article p {
   margin-bottom: 0.75rem;
 }
 
+article h2 {
+  margin-top: 1.25rem;
+}
+
+article h2 + p {
+  margin-top: 0.25rem;
+}
+
 article a::after {
   content: "°";
   display: inline;
