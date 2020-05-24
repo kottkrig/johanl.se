@@ -8,6 +8,8 @@ date: 2020-05-19
 
 *P.S. Lova att inte skratta åt de fula skisserna.*
 
+--
+
 Vi utbyter filer med varandra som aldrig förr. Vi skickar filer via mejl, via WeTransfer, eller delar länkar via tjänster som Dropbox. För den som skickar filerna är det lätt att bara skicka i väg på smidigast möjligast vis men det är besvärligt att vara mottagare av filerna. 
 
 - Svårt att hålla reda på vilken fil som är den senaste versionen. 
