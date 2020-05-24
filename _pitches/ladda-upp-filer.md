@@ -73,14 +73,14 @@ Där möts han av en webbsida med prydliga alternativ för att ladda upp bilder 
 	 <figcaption>Klienten besöker uppladdningssajten</figcaption>
 </figure>
 
-Han börjar med att ladda upp en bild.￼ Den är lite för liten för Kalle har fått tag på en tumnagelbild från företagets interna bilddatabas.￼ så fort filen har laddats upp så skrivs ett felmeddelande ut om att bildfilen är för liten.￼
+Han börjar med att ladda upp en bild. Den är lite för liten för Kalle har fått tag på en tumnagelbild från företagets interna bilddatabas. så fort filen har laddats upp så skrivs ett felmeddelande ut om att bildfilen är för liten.
 
 <figure>
 	<img width="2048" height="1536" src="/assets/img/pitches/pitch-20200519/skiss.4.png" />
 	 <figcaption>Klienten laddar upp en för liten bild</figcaption>
 </figure>
 
-Då går han tillbaka till bilddatabasen och hämtar en stor variant av samma bild.￼
+Då går han tillbaka till bilddatabasen och hämtar en stor variant av samma bild.
 
 Sedan fortsätter Kalle med att skriva in texter och ladda upp en logga.
 
@@ -93,15 +93,15 @@ När han lagt in alla bilder och texter så tänds en "skicka"-knapp i nederkant
 
 ## Ladda hem
 
-Maja Mottagare får ett mejl om att filerna och texterna nu är uppladdade. Direkt i mejlet finns en länk för att ladda hem en zip innehållandes allt material.￼
+Maja Mottagare får ett mejl om att filerna och texterna nu är uppladdade. Direkt i mejlet finns en länk för att ladda hem en zip innehållandes allt material.
 
 ## Uppdatera filer
 
-Åh nej! Kalle Klient inser att han har glömt en bild som skulle kunna passa väldigt bra till den här reklamkampanjen.￼ 
+Åh nej! Kalle Klient inser att han har glömt en bild som skulle kunna passa väldigt bra till den här reklamkampanjen.
 
 Ingen fara. Han letar upp länken till uppladdningsformuläret och laddar upp den nya bilden. 
 
-Maja Mottagare får då ett mejl om att formuläret har uppdaterats ytterligare en gång. Hon får möjlighet att ladda hem en zip med allt material, eller en zip med enbart det materialet som har lagts till.￼
+Maja Mottagare får då ett mejl om att formuläret har uppdaterats ytterligare en gång. Hon får möjlighet att ladda hem en zip med allt material, eller en zip med enbart det materialet som har lagts till.
 
 ## Förslag till [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product)
 
