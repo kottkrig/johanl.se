@@ -107,7 +107,7 @@ Mottagaren får då ett mejl om att formuläret har uppdaterats ytterligare en g
 
 ## Förslag till MVP
 
-För att undersöka om det här projektet löser ett faktiskt problem så föreslår jag att vi börjar med att prototypa sidan för att skapa uppladdningsformulär. Alltså den sidan mottagaren använder för att välja vad som behöver laddas upp. Om vi löser den på ett tillfredsställande vis så att den känns enkel och trevlig att använda, då tror jag att vi har löst det viktigaste problemet för sajten.
+För att undersöka om det här projektet löser ett faktiskt problem så föreslår jag att vi börjar med att prototypa den sida mottagaren använder för att skapa uppladdningsformulär. Om vi löser den på ett tillfredsställande vis så att den känns enkel och trevlig att använda, då tror jag att vi har löst det viktigaste problemet för sajten.
 
 På sikt behöver en sådan här tjänst kunna en rad olika saker. 
 
