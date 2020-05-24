@@ -1,7 +1,7 @@
 ---
-title: "Ladda upp filer"
+title: "Pitch: Ladda upp filer"
 layout: post
-date: 2020-05-19
+date: 2020-05-24
 ---
 
 💡 *Det här är en pitch för en helt ny tjänst. Den är varken heltäckande eller uttömmande men jag har försökt mig på att beskriva ett enstaka usecase för hur jag tänker att en tjänsten skulle kunna fungera.*
