@@ -26,15 +26,15 @@ Under ett tag har jag gått i funderingar på en tjänst som skulle kunna hjälp
 
 Så här tänker jag mig att det fungerar:
 
-Mottagaren har fått i uppdrag att göra ett reklamblad för en klient. Hen vet att de kommer att behöva följande för att göra reklambladet:
+Maja Mottagare har fått i uppdrag att göra ett reklamblad för en klient. Hon vet att de kommer att behöva följande för att göra reklambladet:
 
 - En stor bild, troligtvis med en upplösning på över 5000px i bredd. Allra helst ett par stycken bilder som vi kan välja bland.
 - Ett telefonnummer, en epostadress och en besöksadress som ska finnas med i reklambladet.
 - En logga, helst i vektorformat. Om det inte finns vektorformat så behöver den också ha en upplösning över 2500px i bredd.
 
-Så. Hen loggar in på den här, än så länge fiktiva, sajten och skapar upp ett nytt uppladdningsformulär. 
+Så. Hon loggar in på vår sajt och skapar upp ett nytt uppladdningsformulär. 
 
-Där lägger hen till en bilduppladdning som kan ta emot en eller fler bilder. Och lägger till regeln att bilden *måste* ha en upplösning på minst 5000px i bredd. Kanske lägger hen också till en egen kommentar om att ni gärna tar emot flera bilder så att ni kan göra ett par varianter. 
+Där lägger hon till en bilduppladdning som kan ta emot en eller fler bilder. Hon lägger också till regeln att bilden *måste* ha en upplösning på minst 5000px i bredd. Kanske lägger hon också till en egen kommentar om att ni gärna tar emot flera bilder så att ni kan göra ett par varianter. 
 
 <figure>
 	<img width="2048" height="1536" src="/assets/img/pitches/pitch-20200519/skiss.1.png" />
@@ -42,68 +42,66 @@ Där lägger hen till en bilduppladdning som kan ta emot en eller fler bilder. O
 </figure>
 
 
-Hen fortsätter att lägga till ett textfält för telefonnummer, ett textfält för epostadress och ett textfält för besöksadress.
+Maja fortsätter att lägga till ett textfält för telefonnummer, ett textfält för epostadress och ett textfält för besöksadress.
 
 <figure>
 	<img width="2048" height="1536" src="/assets/img/pitches/pitch-20200519/skiss.2.png" />
 	 <figcaption>Mottagaren lägger till textinmatning till formuläret</figcaption>
 </figure>
 
-Slutligen så lägger hen till en bilduppladdning för loggan med regeln att den kan vara ett vektorformat *eller* en bitmap med bredden 2500px. 
+Slutligen så lägger hon till en bilduppladdning för loggan med regeln att den kan vara ett vektorformat *eller* en bitmap med bredden 2500px. 
 
-Samtidigt som hen har lagt in de här uppladdningarna så passar hen på att bestämma vilka filnamn de ska få. 
+Maja vill döpa bildfilerna så att de passar hennes egna system. 
 
 - main_photo_option_{a,z}.[ext]
 - logo.[ext]
 
-Så, oavsett vad den som skickar filerna har döpt sina kopior av filerna till så döps de om när mottagaren laddar ned dem.
+Så, oavsett vad filerna har för ursprungsnamn så döps de om när Maja laddar ned dem.
 
-Bara ett steg kvar då. Och det är att mejla länken till klienten så att hen kan ladda upp filerna. 
+Bara ett steg kvar då. Och det är att mejla länken till klienten så att han kan ladda upp filerna. 
 
 ## Ladda upp filer
 
-Klienten sitter förväntansfullt och laddar om sitt mejlprogram i hopp om att det ska dimpa ned ett mejl från dig. Vips! Där kom det. 
+Kalle Klient sitter förväntansfullt och laddar om sitt mejlprogram i hopp om att det ska dimpa ned ett mejl från Maja Mottagare. Pling! Där kom det. 
 
-Hen trycker på länken. 
+Han trycker på länken. 
 
-Och möts av en webbsida med prydliga alternativ för att ladda upp bilder och skriva in texter.
+Där möts han av en webbsida med prydliga alternativ för att ladda upp bilder och skriva in texter.
 
 <figure>
 	<img width="2048" height="1536" src="/assets/img/pitches/pitch-20200519/skiss.3.png" />
 	 <figcaption>Klienten besöker uppladdningssajten</figcaption>
 </figure>
 
-Hen börjar med att ladda upp en bild.￼ Den är lite för liten för hen har fått tag på en tumnagelbild från företagets interna bilddatabas.￼ så fort filen har laddats upp så ser hen ett felmeddelande om att bildfilen är för liten.￼
+Han börjar med att ladda upp en bild.￼ Den är lite för liten för Kalle har fått tag på en tumnagelbild från företagets interna bilddatabas.￼ så fort filen har laddats upp så skrivs ett felmeddelande ut om att bildfilen är för liten.￼
 
 <figure>
 	<img width="2048" height="1536" src="/assets/img/pitches/pitch-20200519/skiss.4.png" />
-	 <figcaption>Klienten laddar upp en för liten bild</figcaption>
+	 <figcaption>Klienten laddar upp en *för liten* bild</figcaption>
 </figure>
 
-Då går hen tillbaka till bilddatabasen och hämtar en stor variant av samma bild.￼
+Då går han tillbaka till bilddatabasen och hämtar en stor variant av samma bild.￼
 
-Sedan fortsätter hen med att fylla på med de andra bilderna och skriva in de andra texterna.￼
+Sedan fortsätter Kalle med att skriva in texter och ladda upp en logga.
 
 <figure>
 	<img width="2048" height="1536" src="/assets/img/pitches/pitch-20200519/skiss.5.png" />
 	 <figcaption>Klienten fyller i textfälten och laddar upp en logga</figcaption>
 </figure>
 
-När alla bilderna och alla texterna är inlagda så tänds en knapp i nederkant av formuläret. “Skicka“￼￼￼. När hen trycker på den knappen så skickas ett mejl till mottagaren om att alla filer är uppladdade.￼
+När han lagt in alla bilder och texter så tänds en "skicka"-knapp i nederkant av formuläret. När han trycker på knappen så skickas ett mejl till Maja Mottagare om att Kalle har laddat upp filerna.
 
 ## Ladda hem
 
-￼Mottagaren får ett mejl om att filerna och texterna är inlagda i systemet. Direkt i mejlet finns det en länk för att ladda hem en zip innehållandes allt material.￼
-
-I zippen så har materialet fått de filnamn som mottagen angav när hen skapade formuläret.￼
+Maja Mottagare får ett mejl om att filerna och texterna nu är uppladdade. Direkt i mejlet finns en länk för att ladda hem en zip innehållandes allt material.￼
 
 ## Uppdatera filer
 
-Åh nej! Klienten inser att hen har glömt en bild som skulle kunna passa väldigt bra till den här reklamkampanjen.￼ 
+Åh nej! Kalle Klient inser att han har glömt en bild som skulle kunna passa väldigt bra till den här reklamkampanjen.￼ 
 
-Ingen fara. Hen letar upp länken till uppladdnings formuläret som kom via mejl och laddar upp den nya en bilden. 
+Ingen fara. Han letar upp länken till uppladdningsformuläret och laddar upp den nya bilden. 
 
-Mottagaren får då ett mejl om att formuläret har uppdaterats ytterligare en gång. Hen får möjlighet att ladda hem en zip med allt material, eller en zip med enbart det materialet som har lagts till.￼
+Maja Mottagare får då ett mejl om att formuläret har uppdaterats ytterligare en gång. Hon får möjlighet att ladda hem en zip med allt material, eller en zip med enbart det materialet som har lagts till.￼
 
 ## Förslag till [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product)
 
