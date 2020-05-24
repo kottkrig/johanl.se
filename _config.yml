@@ -32,6 +32,10 @@ lang: sv_SE
 
 permalink: /:year/:month/:title/
 
+collections:
+  pitches:
+    output: true
+
 defaults:
   - scope:
       path: ""
