@@ -113,6 +113,6 @@ På sikt behöver en sådan här tjänst kunna en rad olika saker.
 - Kanske dela projekt mellan mottagare (om man t ex är flera personer på en byrå)
 - Kanske koppling till Dropbox/Google Drive/FTP eller annan fillagring för att lägga de uppladdade filerna på (i stället för att ladda hem zippar med det uppladdade materialet)
 
-Men det är bra att börja smått och därför föreslår jag att vi bortser från de här funktionerna i nuläget och fokuserar på skapandet av uppladdningsformuläret. Samt den funktionalitet vi tror att den behöver för att bli så kommunikativt som möjligt.
+Men det är bra att börja smått och därför föreslår jag att vi bortser från de här funktionerna i nuläget och fokuserar på skapandet av uppladdningsformuläret. Samt den funktionalitet vi tror att den behöver för att bli så kommunikativ som möjligt.
 
 
