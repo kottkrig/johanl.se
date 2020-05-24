@@ -4,7 +4,7 @@ layout: post
 date: 2020-05-19
 ---
 
-💡 *Det här är en pitch och ett förslag på ett enstaka användningsområde för en helt ny tjänst. Förhoppningsvis ger den en idé om hur en sådan här tjänst skulle kunna fungera.*
+💡 *Det här är en pitch för en helt ny tjänst. Den är varken heltäckande eller uttömmande men jag har försökt mig på att beskriva ett enstaka usecase för hur jag tänker att en tjänsten skulle kunna fungera.*
 
 *P.S. Lova att inte skratta åt de fula skisserna.*
 
