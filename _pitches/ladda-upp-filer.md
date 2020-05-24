@@ -105,7 +105,7 @@ Ingen fara. Hen letar upp länken till uppladdnings formuläret som kom via mejl
 
 Mottagaren får då ett mejl om att formuläret har uppdaterats ytterligare en gång. Hen får möjlighet att ladda hem en zip med allt material, eller en zip med enbart det materialet som har lagts till.￼
 
-## Förslag till MVP
+## Förslag till [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product)
 
 För att undersöka om det här projektet löser ett faktiskt problem så föreslår jag att vi börjar med att prototypa den sida mottagaren använder för att skapa uppladdningsformulär. Om vi löser den på ett tillfredsställande vis så att den känns enkel och trevlig att använda, då tror jag att vi har löst det viktigaste problemet för sajten.
 
