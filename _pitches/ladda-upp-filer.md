@@ -14,17 +14,17 @@ Vi utbyter filer med varandra som aldrig förr. Vi skickar filer via mejl, via W
 - Svårt att följa upp om det visar sig att man fick bilder i fel format eller i fel storlek. 
 - För att hålla ordning behöver mottagaren döpa om och organisera filerna så att de passar sitt egna system.
 
-En enstaka fil kan resultera i otaliga mejl fram och tillbaka till kunden vilket kan vara frustrerande för båda parter.
+En enstaka fil kan resultera i otaliga mejl fram och tillbaka till klienten vilket kan vara frustrerande för båda parter.
 
 Så. Det är lätt att skicka filer men det är svårt att *be* om filer.
 
 ## Be om filer
 
-Under ett tag har jag gått i funderingar på en tjänst som skulle kunna hjälpa till i den här utväxlingen av filer. En tjänst där mottagaren har möjlighet att skapa ett formulär till klienten för att ladda upp just de filer eller texter som mottagaren behöver.
+Under ett tag har jag gått i funderingar på en tjänst som skulle kunna hjälpa till i den här fil-utväxlingen. En tjänst där mottagaren har möjlighet att skapa ett formulär till klienten för att ladda upp just de filer eller texter som mottagaren behöver.
 
 Så här tänker jag mig att det fungerar:
 
-Mottagaren har fått i uppdrag att göra ett reklamblad för en kund. Hen vet att de kommer att behöva följande för att göra reklambladet:
+Mottagaren har fått i uppdrag att göra ett reklamblad för en klient. Hen vet att de kommer att behöva följande för att göra reklambladet:
 
 - En stor bild, troligtvis med en upplösning på över 5000px i bredd. Allra helst ett par stycken bilder som vi kan välja bland.
 - Ett telefonnummer, en epostadress och en besöksadress som ska finnas med i reklambladet.
@@ -56,11 +56,11 @@ Samtidigt som hen har lagt in de här uppladdningarna så passar hen på att bes
 
 Så, oavsett vad den som skickar filerna har döpt sina kopior av filerna till så döps de om när mottagaren laddar ned dem.
 
-Bara ett steg kvar då. Och det är att mejla länken till kunden så att hen kan ladda upp filerna. 
+Bara ett steg kvar då. Och det är att mejla länken till klienten så att hen kan ladda upp filerna. 
 
 ## Ladda upp filer
 
-Kunden sitter förväntansfullt och laddar om sitt mejlprogram i hopp om att det ska dimpa ned ett mejl från dig. Vips! Där kom det. 
+Klienten sitter förväntansfullt och laddar om sitt mejlprogram i hopp om att det ska dimpa ned ett mejl från dig. Vips! Där kom det. 
 
 Hen trycker på länken. 
 
@@ -68,14 +68,14 @@ Och möts av en webbsida med prydliga alternativ för att ladda upp bilder och s
 
 <figure>
 	<img width="2048" height="1536" src="/assets/img/pitches/pitch-20200519/skiss.3.png" />
-	 <figcaption>Kunden besöker uppladdningssajten</figcaption>
+	 <figcaption>Klienten besöker uppladdningssajten</figcaption>
 </figure>
 
 Hen börjar med att ladda upp en bild.￼ Den är lite för liten för hen har fått tag på en tumnagelbild från företagets interna bilddatabas.￼ så fort filen har laddats upp så ser hen ett felmeddelande om att bildfilen är för liten.￼
 
 <figure>
 	<img width="2048" height="1536" src="/assets/img/pitches/pitch-20200519/skiss.4.png" />
-	 <figcaption>Kunden laddar upp en för liten bild</figcaption>
+	 <figcaption>Klienten laddar upp en för liten bild</figcaption>
 </figure>
 
 Då går hen tillbaka till bilddatabasen och hämtar en stor variant av samma bild.￼
@@ -84,7 +84,7 @@ Sedan fortsätter hen med att fylla på med de andra bilderna och skriva in de a
 
 <figure>
 	<img width="2048" height="1536" src="/assets/img/pitches/pitch-20200519/skiss.5.png" />
-	 <figcaption>Kunden fyller i textfälten och laddar upp en logga</figcaption>
+	 <figcaption>Klienten fyller i textfälten och laddar upp en logga</figcaption>
 </figure>
 
 När alla bilderna och alla texterna är inlagda så tänds en knapp i nederkant av formuläret. “Skicka“￼￼￼. När hen trycker på den knappen så skickas ett mejl till mottagaren om att alla filer är uppladdade.￼
@@ -97,7 +97,7 @@ I zippen så har materialet fått de filnamn som mottagen angav när hen skapade
 
 ## Uppdatera filer
 
-Åh nej! Kunden inser att hen har glömt en bild som skulle kunna passa väldigt bra till den här reklamkampanjen.￼ 
+Åh nej! Klienten inser att hen har glömt en bild som skulle kunna passa väldigt bra till den här reklamkampanjen.￼ 
 
 Ingen fara. Hen letar upp länken till uppladdnings formuläret som kom via mejl och laddar upp den nya en bilden. 
 
