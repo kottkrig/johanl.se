@@ -77,7 +77,7 @@ Han börjar med att ladda upp en bild.￼ Den är lite för liten för Kalle har
 
 <figure>
 	<img width="2048" height="1536" src="/assets/img/pitches/pitch-20200519/skiss.4.png" />
-	 <figcaption>Klienten laddar upp en *för liten* bild</figcaption>
+	 <figcaption>Klienten laddar upp en för liten bild</figcaption>
 </figure>
 
 Då går han tillbaka till bilddatabasen och hämtar en stor variant av samma bild.￼
