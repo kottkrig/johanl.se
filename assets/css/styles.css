@@ -739,6 +739,18 @@ a:hover {
   border-radius: 0.125rem;
 }
 
+article figure {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+article figcaption {
+  text-align: center;
+  font-size: 0.875rem;
+  display: block;
+  margin-top: 0.25rem;
+}
+
 h2 {
   font-size: 1.125rem;
   font-weight: 700;
@@ -809,10 +821,6 @@ h2 {
 
 .mb-8 {
   margin-bottom: 2rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
 }
 
 .mb-24 {

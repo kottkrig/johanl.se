@@ -78,6 +78,15 @@ a:hover {
 	@apply bg-red-100 rounded-sm;
 }
 
+
+article figure {
+	@apply my-5;
+}
+
+article figcaption {
+	@apply text-center text-sm block mt-1;
+}
+
 h2 {
 	@apply text-lg font-bold;
 }
