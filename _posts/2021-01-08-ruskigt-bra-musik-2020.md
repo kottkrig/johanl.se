@@ -8,7 +8,7 @@ Ingen:
 Bokstavligen ingen:
 …
 
-Jag: Låt mig berätta om musik jag har uppskattat under 2020!
+Jag: Låt mig berätta om musik jag har tyckt om under 2020!
 
 ## Album
 
