@@ -13,6 +13,7 @@ Jag: Låt mig berätta om musik jag har uppskattat under 2020!
 ## Album
 
 - [Muzz – Muzz](<https://en.wikipedia.org/wiki/Muzz_(album)>)
+- [Perfume Genius – Set My Heart on Fire Immediately](https://en.wikipedia.org/wiki/Set_My_Heart_on_Fire_Immediately)
 - [I Break Horses – Warnings](<https://en.wikipedia.org/wiki/Warnings_(I_Break_Horses_album)>)
 - [Gordi – Our Two Skins](https://en.wikipedia.org/wiki/Our_Two_Skins)
 - Purr – Like New
