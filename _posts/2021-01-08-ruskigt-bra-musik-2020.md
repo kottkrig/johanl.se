@@ -22,7 +22,7 @@ I mitt fall så lyssnar jag näst intill uteslutande på musik i albumform och j
 - [Perfume Genius – Set My Heart on Fire Immediately](https://en.wikipedia.org/wiki/Set_My_Heart_on_Fire_Immediately)
 - [I Break Horses – Warnings](<https://en.wikipedia.org/wiki/Warnings_(I_Break_Horses_album)>)
 - [Gordi – Our Two Skins](https://en.wikipedia.org/wiki/Our_Two_Skins)
-- Purr – Like New
+- [Purr – Like New](https://purrpurrpurr.bandcamp.com/album/like-new)
 - [Phoebe Bridgers – Punisher](<https://en.wikipedia.org/wiki/Punisher_(album)>)
 - [Sault - Untitled (Black Is)](<https://en.wikipedia.org/wiki/Untitled_(Black_Is)>)
 - [Sault – Untitled (Rise)](<https://en.wikipedia.org/wiki/Untitled_(Rise)>)
