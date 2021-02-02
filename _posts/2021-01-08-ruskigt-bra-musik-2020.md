@@ -14,7 +14,7 @@ Jag: Låt mig berätta om musik jag har uppskattat under 2020!
 
 Ett stort tack till alla artister som, 2020 till trots, har spottat ur sig guldklimpar till album. Eftersom spelningar och turnéer har ställts in så är det viktigare än någonsin att stötta de artister man tycker om. Köp deras musik och merchandise! Och, inte minst, berätta för andra vilka artister du har uppskattat under året.
 
-Själv har jag gjort slag i saken och köpt albumen från Bandcamp.
+I mitt fall så lyssnar jag näst intill uteslutande på musik i albumform och jag har gjort slag i saken och köpt mina favoriter från [Bandcamp](https://bandcamp.com).
 
 ## Album
 
