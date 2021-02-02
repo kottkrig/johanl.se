@@ -12,9 +12,9 @@ Jag: Låt mig berätta om musik jag har uppskattat under 2020!
 
 --
 
-När jag lyssnar på musik så lyssnar jag huvudsakligen på musik i albumform. Jag är av åsikten att album ska spelas på klassiskt vis – från början till slut. I ordning.
+Ett stort tack till alla artister som, 2020 till trots, har spottat ur sig guldklimpar till album. Eftersom spelningar och turnéer har ställts in så är det viktigare än någonsin att stötta de artister man tycker om. Köp deras musik och merchandise! Och, inte minst, berätta för andra vilka artister du har uppskattat under året.
 
-Shuffleknappen göre sig icke besvär.
+Själv har jag gjort slag i saken och köpt albumen från Bandcamp.
 
 ## Album
 
