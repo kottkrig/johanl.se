@@ -45,9 +45,6 @@ jobs:
       with:
         node-version: 10.x
       
-    - run: npm install -g postcss-cli
-    - run: npm install -g autoprefixer
-      
     - name: Install project dependencies
       run: npm install
       
