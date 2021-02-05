@@ -12,11 +12,16 @@ Install bundler.
 gem install bundler
 ```
 
-Also, make sure to install `postcss-cli` and `autoprefixer` globally in your environment, as Hugo Pipe’s PostCSS requires it. This is mentioned in the [Hugo Docs](https://gohugo.io/hugo-pipes/postcss/).
+Install ruby dependencies
+
+```
+bundle install
+```
+
+Install node debendencies
 
 ```bash
-npm install -g postcss-cli
-npm install -g autoprefixer
+npm install
 ```
 
 ### Installing and running
